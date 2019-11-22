@@ -32,7 +32,12 @@ def array_literal_matrix
   # side the ENNET_HOUSE and ENFIELD_TENNIS_ACADEMY Arrays but sorts
   # alphabetically by the first character.
   
-  assembled_matrix.sort!
+  new_array1 = [
+    ENNET_HOUSE,
+    ENFIELD_TENNIS_ACADEMY
+  ]
+  
+  new_array1.sort
 end
 
 def matrix_lookup(matrix, row, column)
