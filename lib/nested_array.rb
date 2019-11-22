@@ -32,14 +32,17 @@ def array_literal_matrix
   # side the ENNET_HOUSE and ENFIELD_TENNIS_ACADEMY Arrays but sorts
   # alphabetically by the first character.
   
-  assembled_matrix.sort 
+  assembled_matrix.sort!
 end
 
 def matrix_lookup(matrix, row, column)
   # Return the matrix's content at row and column
+  array_literal_matrix[row][column]
 end
 
 def matrix_update(matrix, row, column, new_value)
   # Update the matrix location at row and column to have the value of new_value
   # Return the updated matrix
+  matrix_lookup[row][column] = new_value
+  
 end
