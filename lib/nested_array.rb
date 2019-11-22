@@ -36,7 +36,7 @@ def array_literal_matrix
     ENNET_HOUSE,
     ENFIELD_TENNIS_ACADEMY
   ]
-  new_array1 = new_array1.sort(a-z)
+  new_array1 = new_array1.sort
   
 end
 
