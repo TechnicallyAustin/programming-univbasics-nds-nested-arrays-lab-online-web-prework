@@ -33,11 +33,11 @@ def array_literal_matrix
   # alphabetically by the first character.
   
   new_array1 = [
-    ENNET_HOUSE,
-    ENFIELD_TENNIS_ACADEMY
-  ]
-  new_array1.sort!
-  
+    ENNET_HOUSE.sort,
+    ENFIELD_TENNIS_ACADEMY.sort
+    ]
+  new_array1
+
 end
 
 def matrix_lookup(matrix, row, column)
